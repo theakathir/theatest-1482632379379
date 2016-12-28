@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: theatest
+  host: theatest
+  disk_quota: 1024M
+  services:
+  - theatest-cloudantNoSQLDB
+  - availability-monitoring-auto
